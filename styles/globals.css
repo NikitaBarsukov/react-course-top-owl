@@ -6,7 +6,7 @@ body {
 	color: var(--black);
 	background: var(--white);
 
-	font-family: "Noto Sans Kr", sans-serif;
+	font-family: 'Noto Sans Kr', sans-serif;
 }
 
 a {
@@ -22,7 +22,9 @@ a {
 :root {
 	--black: #3B434E;
 	--white: white;
+	--grey-light: #EBEBEB;
 	--primary: #7653FC;
+	--primary-hover: #6344DF;
 	--red: #FC836D;
 	--green: #1DC37E;
 	--green-light: #C8F8E4;

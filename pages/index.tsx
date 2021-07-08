@@ -7,10 +7,12 @@ export default function Home(): JSX.Element {
 			<Htag tag='h1'> Hello </Htag>
 			<Htag tag='h2'> Hello </Htag>
 			<Htag tag='h3'> Hello </Htag>
-			<Button appearance='primary' arrow='right'>
+			<Button appearance='primary' arrow='down'>
 				Кнопка
 			</Button>
-			<Button appearance='ghost'>Кнопка</Button>
+			<Button appearance='ghost' arrow='right'>
+				Кнопка
+			</Button>
 		</div>
 	);
 }

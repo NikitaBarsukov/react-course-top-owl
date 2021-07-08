@@ -1,9 +1,9 @@
 import React from 'react';
-import { Button, Htag } from '../components';
+import { P, Button, Htag } from '../components';
 
 export default function Home(): JSX.Element {
 	return (
-		<div>
+		<>
 			<Htag tag='h1'> Hello </Htag>
 			<Htag tag='h2'> Hello </Htag>
 			<Htag tag='h3'> Hello </Htag>
@@ -13,6 +13,9 @@ export default function Home(): JSX.Element {
 			<Button appearance='ghost' arrow='right'>
 				Кнопка
 			</Button>
-		</div>
+			<P size='l'>Большой</P>
+			<P>Средний</P>
+			<P size='s'>Маленький</P>
+		</>
 	);
 }
